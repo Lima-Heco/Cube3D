@@ -13,9 +13,29 @@
 
 typedef struct s_mygame
 {
+	//taille du joueur
+	int	sop;
+
+	int	screen;
+	//	taille des mures
+	int	sow;
+	char	**map;
+	float	axe;
+	int	fov;
 	//screen_size_(axe)
 	int	ss_x;
 	int ss_y;
+	//map size;
+	int	my;
+	int	mx;
+
+	int	playerx;
+	int	playery;
+
+	float	player_viewx;
+	float	player_viewy;
+
+
 	//reset screen ?
 	int	res;
 	//exit request

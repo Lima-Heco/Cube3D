@@ -1,5 +1,5 @@
 vpath %.c %.o %.h %.a ./libft ./mlx ./Start_Game ./game_display
-VPATH = . : ./libft :
+VPATH = . : ./libft ./Start_Game:
 CC = gcc
 CFLAGS = -Wall -Werror -Wextra
 LIB_DIR = ./libft/

@@ -6,8 +6,13 @@
 /*   By: lheinric <lheinric@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/29 14:08:41 by lheinric          #+#    #+#             */
-/*   Updated: 2023/11/29 14:08:57 by lheinric         ###   ########.fr       */
+/*   Updated: 2023/11/30 12:53:32 by lheinric         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../cube3d.h"
+
+int	display_menu(t_3d *t)
+{
+	mlx_put_image_to_window(t->mlx_ptr, t->mlx_win, t->menu, 0, 0);
+}
